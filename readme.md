@@ -65,11 +65,11 @@ code placeholder
 ```
 ### Datasets used in this study
 
-* [PLUTO] (https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page)
-* [Property Assessment] (https://www1.nyc.gov/site/finance/taxes/property-assessments.page)
-* [Sales Data] ()
-* [NYC Street Centerline] (https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
-* [Building Footprints] (https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
+* [PLUTO](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page)
+* [Property Assessment](https://www1.nyc.gov/site/finance/taxes/property-assessments.page)
+* [Sales Data]()
+* [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
+* [Building Footprints](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
 
 
 
