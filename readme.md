@@ -14,9 +14,9 @@ Using publically available data we built a model to study property values change
 
 ### Dataset choice: 
 
-We closely looked at property prices in Manhattan, from 2007 till 2018 using  publicly available data from nyc.gov. 
+We closely looked at property prices in Manhattan, from 2007 till 2018 using  publicly available data from [nyc.gov](https://www1.nyc.gov/). 
 
-“Property Assessment” is the primary dataset for our analysis. It is being done for taxation purposes and has consistent data from 2007 till 2018, it correlates with “Rolling Sales Data” dataset. 
+[“Property Assessment”](https://www1.nyc.gov/site/finance/taxes/property-assessments.page) is the primary dataset for our analysis. It is being done for taxation purposes and has consistent data from 2007 till 2018, it correlates with [“Rolling Sales Data”](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page) dataset. 
 
 ### Dataset preparation:
 
