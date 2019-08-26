@@ -17,7 +17,7 @@ We closely looked at property prices in Manhattan, from 2007 till 2018 using  pu
 
 [“Property Assessment”](https://www1.nyc.gov/site/finance/taxes/property-assessments.page) is the primary dataset for our analysis. It is being done for taxation purposes and has consistent data from 2007 till 2018, it correlates with [“Rolling Sales Data”](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page) dataset.
 
-![sales/assessted](https://lh6.googleusercontent.com/lffy1I3o60c8IG5M-dCfNagxn6E4qrhOI4mzmf-xRq1_dkctT5ZR1SBS_eCanMGyU_1KUXsDuFAlSqaA9Vbi4u3a4jv3NzvpxIz9SoALoSl8uVDJ09ZLqhbhNgyTWFpQs9rOYJRS)
+<p align="center"><img width="40%" src="https://lh6.googleusercontent.com/lffy1I3o60c8IG5M-dCfNagxn6E4qrhOI4mzmf-xRq1_dkctT5ZR1SBS_eCanMGyU_1KUXsDuFAlSqaA9Vbi4u3a4jv3NzvpxIz9SoALoSl8uVDJ09ZLqhbhNgyTWFpQs9rOYJRS" /></p>
 
 *We filtered properties that were sold over the period of time from 2007 till 2018 and compared their assessed value to the amount of actual sales to make sure the datasets have high level of correlation.*
 
@@ -44,8 +44,7 @@ code placeholder
 
 We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can find out how many miles one has to travel to reach High Line via sidewalks. We then divided the lots into seven ranges of distance to High Line:
 
-![distance](https://lh6.googleusercontent.com/2AlDLiU4ejZxOTUFnzxGyVi02fUcvm_xMctRCJgnrNIR_45kDI1rsiwP29A7POepex_rE9eRNhtpTGqu3II_iVeNLseFdAzKgaYg7NBE-_WR46ubBocFNtvq6cC7J_uQhegXfB-g)
-
+<p align="center"><img width="40%" src="https://lh6.googleusercontent.com/2AlDLiU4ejZxOTUFnzxGyVi02fUcvm_xMctRCJgnrNIR_45kDI1rsiwP29A7POepex_rE9eRNhtpTGqu3II_iVeNLseFdAzKgaYg7NBE-_WR46ubBocFNtvq6cC7J_uQhegXfB-g" /></p>
 1.	0-0.33 	miles
 2.	0.33-0.67 	miles
 3.	0.67-1 		miles
@@ -61,7 +60,8 @@ By adding the values of synthetic plots within each band and comparing that valu
 ```cs
 code placeholder
 ```
-![total value](https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca)
+<p align="center"><img width="40%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
+
 ### General dynamic of property values in a band
 
 Having property values dynamics we can also find average property value change within each distance band. 
@@ -69,7 +69,7 @@ Having property values dynamics we can also find average property value change w
 ```cs
 code placeholder
 ```
-![average](https://lh4.googleusercontent.com/qvHGi3DMUZf_VSUGKfa-QY3eMbp0myvq2qHlnfb80PPUFK8ugCawheug-sUxuS2ixm87GiykIURSkFtniHgGcYX6B-b33XPBD3H3AVR9PBXcQnLm0mDHmNLmTKBEDSqtmoN_Ewx3)
+<p align="center"><img width="40%" src="https://lh4.googleusercontent.com/qvHGi3DMUZf_VSUGKfa-QY3eMbp0myvq2qHlnfb80PPUFK8ugCawheug-sUxuS2ixm87GiykIURSkFtniHgGcYX6B-b33XPBD3H3AVR9PBXcQnLm0mDHmNLmTKBEDSqtmoN_Ewx3" /></p>
 ### Datasets used in this study
 
 * [PLUTO](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page)
