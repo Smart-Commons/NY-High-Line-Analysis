@@ -44,7 +44,7 @@ code placeholder
 
 We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can find out how many miles one has to travel to reach High Line via sidewalks. We then divided the lots into seven ranges of distance to High Line:
 
-<p align="center"><img width="40%" src="https://lh6.googleusercontent.com/2AlDLiU4ejZxOTUFnzxGyVi02fUcvm_xMctRCJgnrNIR_45kDI1rsiwP29A7POepex_rE9eRNhtpTGqu3II_iVeNLseFdAzKgaYg7NBE-_WR46ubBocFNtvq6cC7J_uQhegXfB-g" /></p>
+<p align="center"><img width="30%" src="https://lh6.googleusercontent.com/2AlDLiU4ejZxOTUFnzxGyVi02fUcvm_xMctRCJgnrNIR_45kDI1rsiwP29A7POepex_rE9eRNhtpTGqu3II_iVeNLseFdAzKgaYg7NBE-_WR46ubBocFNtvq6cC7J_uQhegXfB-g" /></p>
 1.	0-0.33 	miles
 2.	0.33-0.67 	miles
 3.	0.67-1 		miles
@@ -60,7 +60,7 @@ By adding the values of synthetic plots within each band and comparing that valu
 ```cs
 code placeholder
 ```
-<p align="center"><img width="30%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
+<p align="center"><img width="40%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
 
 ### General dynamic of property values in a band
 
