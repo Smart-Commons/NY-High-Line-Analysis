@@ -17,7 +17,7 @@ We closely looked at property prices in Manhattan, from 2007 till 2018 using  pu
 
 [“Property Assessment”](https://www1.nyc.gov/site/finance/taxes/property-assessments.page) is the primary dataset for our analysis. It is being done for taxation purposes and has consistent data from 2007 till 2018, it correlates with [“Rolling Sales Data”](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page) dataset.
 
-<p align="center"><img width="40%" src="https://lh6.googleusercontent.com/lffy1I3o60c8IG5M-dCfNagxn6E4qrhOI4mzmf-xRq1_dkctT5ZR1SBS_eCanMGyU_1KUXsDuFAlSqaA9Vbi4u3a4jv3NzvpxIz9SoALoSl8uVDJ09ZLqhbhNgyTWFpQs9rOYJRS" /></p>
+<p align="center"><img width="30%" src="https://lh6.googleusercontent.com/lffy1I3o60c8IG5M-dCfNagxn6E4qrhOI4mzmf-xRq1_dkctT5ZR1SBS_eCanMGyU_1KUXsDuFAlSqaA9Vbi4u3a4jv3NzvpxIz9SoALoSl8uVDJ09ZLqhbhNgyTWFpQs9rOYJRS" /></p>
 
 *We filtered properties that were sold over the period of time from 2007 till 2018 and compared their assessed value to the amount of actual sales to make sure the datasets have high level of correlation.*
 
@@ -60,7 +60,7 @@ By adding the values of synthetic plots within each band and comparing that valu
 ```cs
 code placeholder
 ```
-<p align="center"><img width="40%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
+<p align="center"><img width="30%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
 
 ### General dynamic of property values in a band
 
