@@ -58,7 +58,7 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 
 ### Total value change per band:
 
-By adding the values of synthetic plots within each band and comparing that value change over time we can see weather cumulative value of the distance band grew over a particular period of time.  
+By adding the values of synthetic plots within each band and comparing that value change over time we can see weather cumulative value of the distance band grew over a particular period of time.
 
 ```cs
 code placeholder
@@ -66,9 +66,9 @@ code placeholder
 
 <p align="center"><img width="40%" src="https://lh4.googleusercontent.com/5whk9gDDvxNEA1Xo-MuAVN1_BJPmXcoPt-bN3mE1et_LwBAo0obTqsgGoN7qCPiZwuycLurcS1F8EdZF0uG2Z1z5kiAK0CYHDJHg8_QYxXPcE31sw02sswqGcSeGr1mYbU6EOmca" /></p>
 
-### General dynamic of property values in a band
+### General dynamic of property values in a band:
 
-Having property values dynamics we can also find average property value change within each distance band. 
+Having property values dynamics we can also find average property value change within each distance band.
 
 ```cs
 code placeholder
