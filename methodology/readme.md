@@ -28,8 +28,26 @@ For the purposes of this analysis we had to slightly modify the existing dataset
 
 The way the dataset locates each property is through assigning them a block number and a tax lot. While blocks always remain unchanged, sometimes lots will be divided or united (or split between land value and apartment value as in case of condos), which makes it impossible to make “apples to apples” comparison of property values over time. Different property types that are recorded in different ways. Many lots change land use and [tax class](https://www1.nyc.gov/site/finance/taxes/property-tax-rates.page). In order to overcome this issue we have substituted each property’s lot, assigned in the dataset to a synthetic parent lot. This is done through uniting lots that changed shape over the period of time from 2007 till 2018 and adding all the values within one synthetic parent lot. In this way, we will be able to assess how a set of same properties changed value over time.  
 
-```cs
-code placeholder
+```sql
+SELECT
+    CASE
+        WHEN
+            ap_lot = 0 THEN
+            lot ELSE ap_lot
+        END AS aplot,
+    CASE
+        WHEN
+            ap_block = 0 THEN
+            block ELSE ap_block
+        END AS apblock,
+    cur_fv_t,
+    year4
+FROM
+    `property assessments`
+GROUP BY
+    apblock,
+    aplot,
+    year4
 ```
 
 ### Property value change:
