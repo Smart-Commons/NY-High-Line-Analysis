@@ -58,7 +58,8 @@ Next, we calculate coefficients of value changes over time, with an increment of
 code placeholder
 ```
 
-*We did not filter new construction in this. But caped max value growth at 100000*
+*We did not filter new construction in this. But caped max value growth at 100000%*
+<p align="center"><img width="100%" src="https://lh4.googleusercontent.com/YoY-uH6jCMVytFHsAxyACXSdwzvZ2pZQpISx6lWZKHsvpGoN3S4Hb4qD2n_HVBGy34MXTV44q4Mprwan7rrgKAPbAdVhVC7nxqucAHQsoNxIfGsWPlbte-eVYmS6U5b5NUUY05L0" /></p>
 
 ### High Line effect and distance bands:
 
