@@ -59,13 +59,13 @@ code placeholder
 ```
 
 *We did not filter new construction in this. But caped max value growth at 100000%*
-<p align="center"><img width="100%" src="https://lh4.googleusercontent.com/YoY-uH6jCMVytFHsAxyACXSdwzvZ2pZQpISx6lWZKHsvpGoN3S4Hb4qD2n_HVBGy34MXTV44q4Mprwan7rrgKAPbAdVhVC7nxqucAHQsoNxIfGsWPlbte-eVYmS6U5b5NUUY05L0" /></p>
+<p align="center"><img width="100%" src="img/value_uplift.gif" /></p>
 
 ### High Line effect and distance bands:
 
 We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can find out how many miles one has to travel to reach High Line via sidewalks. We then divided the lots into seven ranges of distance to High Line:
 
-<p align="center"><img width="30%" src="https://lh6.googleusercontent.com/2AlDLiU4ejZxOTUFnzxGyVi02fUcvm_xMctRCJgnrNIR_45kDI1rsiwP29A7POepex_rE9eRNhtpTGqu3II_iVeNLseFdAzKgaYg7NBE-_WR46ubBocFNtvq6cC7J_uQhegXfB-g" /></p>
+<p align="center"><img width="100%" src="img/distance.gif" /></p>
 
 1. 0-0.33  miles
 2. 0.33-0.67 miles
