@@ -93,7 +93,7 @@ Having property values dynamics we can also find average property value change w
 code placeholder
 ```
 
-<p align="center"><img width="40%" src="https://lh4.googleusercontent.com/qvHGi3DMUZf_VSUGKfa-QY3eMbp0myvq2qHlnfb80PPUFK8ugCawheug-sUxuS2ixm87GiykIURSkFtniHgGcYX6B-b33XPBD3H3AVR9PBXcQnLm0mDHmNLmTKBEDSqtmoN_Ewx3" /></p>
+<p align="center"><img width="100%" src="img/average_uplift.jpg" /></p>
 
 ### Datasets used in this study
 
