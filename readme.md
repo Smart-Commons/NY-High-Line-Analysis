@@ -8,6 +8,4 @@ In this study we estimate the impact of opening the High Line Park in New York C
  
 Using publically available data we built a model to study property values change in relation to their proximity to High Line. 
 
-*Result - how to frame the new construction question?*
-
 [Calculation Methodology](methodology/readme.md)
