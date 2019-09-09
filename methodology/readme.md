@@ -16,7 +16,7 @@ For the purposes of this analysis we had to slightly modify the existing dataset
 
 The way the dataset locates each property is through assigning them a block number and a tax lot. While blocks always remain unchanged, sometimes lots will be divided or united (or split between land value and apartment value as in the case of condos), which makes it impossible to make an “apples to apples” comparison of property values over time. Different property types are recorded in different ways and many lots change land use and [tax class](https://www1.nyc.gov/site/finance/taxes/property-tax-rates.page). In order to overcome this issue we have substituted each property’s lot, assigned in the dataset to a synthetic parent lot. This is done through uniting lots that changed shape over the period of time from 2007 to 2018 and adding all the values within one synthetic parent lot. In this way, we will be able to assess how a sets of properties changed value over time.  
 
-<details><summary>Show calculations</summary>
+<details><summary>Show details</summary>
 <p>
 
 ```sql
@@ -49,7 +49,7 @@ Next, we calculated the coefficients of value change for each year. This is done
 
 <p align="center"><img width="100%" src="img/value_uplift.gif" /></p>
 
-<details><summary>Show calculations</summary>
+<details><summary>Show details</summary>
 <p>
 
 ```sql
@@ -157,7 +157,7 @@ Firstly we calculated the change in total market value of all properties within 
 
 <p align="center"><img width="100%" src="img/total_uplift.jpg" /></p>
 
-<details><summary>Show calculations</summary>
+<details><summary>Show details</summary>
 <p>
 
 ```sql
@@ -212,7 +212,7 @@ We then analysed individual properties and calculated the value uplift they each
 
 <p align="center"><img width="100%" src="img/average_uplift.jpg" /></p>
 
-<details><summary>Show calculations</summary>
+<details><summary>Show details</summary>
 <p>
 
 ```sql
