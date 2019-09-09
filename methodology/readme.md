@@ -1,6 +1,6 @@
 # Methodology
 
-### Dataset choice:
+## Dataset choice:
 
 We analysed property prices in Manhattan, between 2007 and 2018 using  publicly available data from [nyc.gov](https://www1.nyc.gov/).
 
@@ -254,7 +254,7 @@ To calculate additional property tax revenue received by the government as a res
 
 ![tax](img/property_tax.png)
 
-### Datasets used in this study
+## Datasets used in this study
 
 * [PLUTO](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page)
 * [Property Assessment](https://www1.nyc.gov/site/finance/taxes/property-assessments.page)
