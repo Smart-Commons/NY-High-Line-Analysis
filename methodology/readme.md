@@ -143,25 +143,25 @@ Firstly we calculated the change in total market value of all properties within 
 
 ```sql
 SELECT
-	CASE
-			WHEN
-				`distance` BETWEEN 0 AND 1000 THEN
-				"1"
-			WHEN
-				`distance` BETWEEN 1000 AND 2000 THEN
-				"2"
-			WHEN
-				`distance` BETWEEN 2000 AND 3000 THEN
-				"3"
-			ELSE
-				"4"
-			END AS `band`,
-	COUNT(`lot`) AS `Number of Lots`,
-	SUM(`2007`) AS `Total Market Value 2007`,
-	SUM(`2018`) AS `Total Market Value 2018`,
-	SUM(`2018`)/SUM(`2007`)-1 AS `Total Value Uplift`
-FROM `cur_fv_t distance`
-GROUP BY `band`
+	(
+CASE
+	
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 0 AND 1000 ) THEN
+	'1' 
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 1000 AND 2000 ) THEN
+	'2' 
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 2000 AND 3000 ) THEN
+	'3' ELSE '4' 
+END 
+	) AS `band`,
+	count( `cur_fv_t distance`.`lot` ) AS `Number of Lots`,
+	sum( `cur_fv_t distance`.`2007` ) AS `Total Market Value 2007`,
+	sum( `cur_fv_t distance`.`2018` ) AS `Total Market Value 2018`,
+	( ( sum( `cur_fv_t distance`.`2018` ) / sum( `cur_fv_t distance`.`2007` ) ) - 1 ) AS `Total Value Uplift` 
+FROM
+	`cur_fv_t distance` 
+GROUP BY
+`band`
 ```
 
 
@@ -179,6 +179,7 @@ SELECT
 	SUM(`2018`)/SUM(`2007`)-1 AS `Value Uplift`
 FROM `cur_fv_t yearly`
 ```
+
 | Number of Lots |  2007 |  2018 | Value Uplift |
 |:--------------:|:------------------------|:-------------------------|---|
 |      55393| 271237511685 | 486144719625 | 79% |
@@ -191,22 +192,22 @@ We then analysed individual properties and calculated the value uplift they each
 
 ```sql
 SELECT
-	CASE
-			WHEN
-				`distance` BETWEEN 0 AND 1000 THEN
-				"1"
-			WHEN
-				`distance` BETWEEN 1000 AND 2000 THEN
-				"2"
-			WHEN
-				`distance` BETWEEN 2000 AND 3000 THEN
-				"3"
-			ELSE
-				"4"
-			END AS `band`,
-AVG(COALESCE((`2018`/`2007`-1),1)) as `Value Uplift`
-FROM `cur_fv_t distance`
-GROUP BY band
+	(
+CASE
+	
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 0 AND 1000 ) THEN
+	'1' 
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 1000 AND 2000 ) THEN
+	'2' 
+	WHEN ( `cur_fv_t distance`.`distance` BETWEEN 2000 AND 3000 ) THEN
+	'3' ELSE '4'
+END 
+	) AS `band`,
+	avg( COALESCE ( ( ( `cur_fv_t distance`.`2018` / `cur_fv_t distance`.`2007` ) - 1 ), 1 ) ) AS `Value Uplift` 
+FROM
+	`cur_fv_t distance`
+GROUP BY
+`band`
 ```
 
 | Band | Average Value uplift |
