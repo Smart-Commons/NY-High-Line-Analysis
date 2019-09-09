@@ -10,4 +10,4 @@ Using publically available data we built a model to study property values change
 
 *Result - how to frame the new construction question?*
 
-[Calculation Methodology](methodology/redme.md)
+[Calculation Methodology](methodology/readme.md)
