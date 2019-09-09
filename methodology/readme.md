@@ -130,6 +130,8 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 
 <p align="center"><img width="100%" src="img/distance.gif" /></p>
 
+<details><summary>Show details</summary>
+<p>
 #### Distance to High Line
 
 | Block | Lot |Stage 1 - 2009 | Stage 2 - 2014  | Stage 3 - 2019  | Radius |
@@ -150,6 +152,8 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 | 2    |1-2 km |5143           |
 | 3    |2-3 km |6091           |
 | 4    |the rest of New York City |41029          |
+</p>
+</details>
 
 ### Total market value change per band:
 
