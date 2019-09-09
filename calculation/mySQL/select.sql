@@ -1,1 +1,0 @@
-SELECT * FROM property assessments WHERE block = 1
