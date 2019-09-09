@@ -106,9 +106,14 @@ WHERE
 | 135 | 11 | 1231000 | 1420000 | 1711000 | 4750000  | 5523000  | 6628000  | 6679000  | 8015000  | 9104000  | 12290000 | 16592000 | 27681000 |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
-*We did not filter out new construction in this, but capped max value growth at 100000%*
 
 <p align="center"><img width="100%" src="img/value_uplift.gif" /></p>
+
+#### Value Uplift to Total Market Value at 2018 distribution in 500m band
+
+![distr](img/value_uplift_distribution.png)
+
+*We did not filter out new construction in this, but capped max value growth at 100000%*
 
 ### High Line effect and distance bands:
 
@@ -217,6 +222,7 @@ GROUP BY
 |3|157%|
 
 <p align="center"><img width="100%" src="img/average_uplift.jpg" /></p>
+
 
 ### Datasets used in this study
 
