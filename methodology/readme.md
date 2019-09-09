@@ -61,6 +61,7 @@ code placeholder
 --->
 
 *We did not filter new construction in this. But caped max value growth at 100000%*
+
 <p align="center"><img width="100%" src="img/value_uplift.gif" /></p>
 
 ### High Line effect and distance bands:
@@ -69,7 +70,7 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 
 <p align="center"><img width="100%" src="img/distance.gif" /></p>
 
-1. 0-1 km 
+1. 0-1 km
 2. 1-2 km
 3. 2-3 km
 4. the rest of New York City
