@@ -65,7 +65,7 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 
 ### Total value change per band:
 
-By adding the values of synthetic plots within each band and comparing that value change over time we can see weather cumulative value of the distance band grew over a particular period of time.
+By adding the values of synthetic plots within each band and comparing that value change over time we can see whether cumulative value of the distance band grew over a particular period of time.
 
 <!---
 ```cs
