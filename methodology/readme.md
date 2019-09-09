@@ -40,7 +40,7 @@ GROUP BY
 
 ### Property value change:
 
-Next, we calculate the coefficients of value change for each year. This is done by calculating the cumulative value of properties, within one synthetic parent lot, in a particular year and dividing it by the same value from the previous year.
+Next, we calculated the coefficients of value change for each year. This is done by calculating the cumulative value of properties, within one synthetic parent lot, in a particular year and dividing it by the same value from the previous year.
 
 <!---
 ```cs
