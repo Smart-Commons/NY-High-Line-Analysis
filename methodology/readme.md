@@ -65,17 +65,14 @@ code placeholder
 
 ### High Line effect and distance bands:
 
-We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can find out how many miles one has to travel to reach High Line via sidewalks. We then divided the lots into seven ranges of distance to High Line:
+We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can find out how many miles one has to travel to reach High Line via sidewalks. We then divided the lots into four ranges of distance to High Line:
 
 <p align="center"><img width="100%" src="img/distance.gif" /></p>
 
-1. 0-0.33  miles
-2. 0.33-0.67 miles
-3. 0.67-1 miles
-4. 1-1.33 miles
-5. 1.33-1.67 miles
-6. 1.67-2 miles
-7. the rest of New York City
+1. 0-1 km 
+2. 1-2 km
+3. 2-3 km
+4. the rest of New York City
 
 ### Total value change per band:
 
