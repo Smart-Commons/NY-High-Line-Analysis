@@ -132,6 +132,7 @@ We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Bus
 
 <details><summary>Show details</summary>
 <p>
+
 #### Distance to High Line
 
 | Block | Lot |Stage 1 - 2009 | Stage 2 - 2014  | Stage 3 - 2019  | Radius |
