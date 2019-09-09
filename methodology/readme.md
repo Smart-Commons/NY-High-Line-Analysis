@@ -77,7 +77,7 @@ code placeholder
 
 ### Average individual property value change by band:
 
-We also analysed individual properties and calculated the value uplift they experienced over the period, taking a mean of these values within each band. This shows the average value uplift experienced by individual landowners rather than a measure of the total market uplift.
+We then analysed individual properties and calculated the value uplift they each experienced over the period, taking a mean of these values within each band. This shows the average value uplift experienced by individual landowners rather than a measure of the total market uplift.
 
 <!---
 ```cs
