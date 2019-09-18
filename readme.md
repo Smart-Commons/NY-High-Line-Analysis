@@ -1,5 +1,16 @@
 # Smart Covenant
-A new investment model for community-led urban development.
+
+👭 publicly funded projects add value to our cities
+
+🎩 but this most benefits private property owners
+
+🤔 together with [@DarkMatter_Labs](https://twitter.com/DarkMatter_Labs) we are devising a new model to fund development
+
+🌍 it might help build climate crisis mitigation infrastructure too
+
+🙏supported by [@ClimateKIC](https://twitter.com/ClimateKIC)
+
+[A Smart Common blogpost](https://provocations.darkmatterlabs.org/a-smart-commons-528f4e53cec2)
 
 ## High Line study
 
