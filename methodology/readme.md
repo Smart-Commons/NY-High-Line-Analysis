@@ -126,7 +126,7 @@ WHERE
 
 ### High Line effect and distance bands:
 
-We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using the [Closeness Centrality](https://en.wikipedia.org/wiki/Closeness_centrality) method we can calculate how many kilometres you would have to travel to reach High Line via sidewalks. We then divided the lots into four distance ranges to High Line:
+We’ve used data from [NYC Street Centerline](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u) to calculate distances from each of our newly generated lots to the High Line. Using the Closeness Centrality method we can calculate how many kilometres you would have to travel to reach High Line via sidewalks. We then divided the lots into four distance ranges to High Line:
 
 <p align="center"><img width="100%" src="img/distance.gif" /></p>
 
